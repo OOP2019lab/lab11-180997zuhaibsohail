@@ -1,0 +1,25 @@
+Exercise 6:
+a)You should notice that the age attribute in a Person is protected, while the first_name and last_name attributes are private. What could be the reason for this?
+Ans.age is protected so that only authorizes person can change the age of a person while first and last name are private members and are not accessible in derived classes
+
+b)
+Ans.cannot access private member of base class.
+c)Why did you get this error?
+Ans.because private members are hidden in inherites classes.
+
+Exercise 8:
+For this task change inheritance type to private and then try to compile the above code. 
+Example:
+Student: protected Person
+Faculty: protected Person
+
+Ans.Error 'person::print' not accessible because 'student' uses 'protected' to inherit from 'person'	
+
+Exercise 9:
+For this task change inheritance type to private and then try to compile the above code. 
+Example:
+Student: private Person
+Faculty: private Person
+
+Ans.Error 'person::print' not accessible because 'student' uses 'private' to inherit from 'person'
+
